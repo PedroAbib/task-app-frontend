@@ -1,11 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+import TaskForm from './TaskForm';
 
 function App() {
   return (
     <div className="App">
+      <div className='Title'>
+        <h1>To Do List</h1>
+      </div>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -17,6 +19,9 @@ function App() {
         >
           Learn React
         </a>
+        <div className="Floating-form">
+          <TaskForm />
+        </div>
       </header>
     </div>
   );
