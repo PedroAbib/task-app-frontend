@@ -1,0 +1,11 @@
+.Task {
+    display: flex;
+    background-color: #202125;
+    min-width: 70vh;
+    margin: 1vh;
+}
+
+.Check {
+    margin: 2vh;
+    width: 25px;
+}
