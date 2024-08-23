@@ -1,6 +1,6 @@
 import './App.css';
-import TaskForm from './TaskForm';
-import Task from './Task';
+import TaskForm from './components/task/TaskForm';
+import Task from './components/task/Task';
 
 function App() {
   return (
