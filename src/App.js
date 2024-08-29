@@ -1,6 +1,5 @@
 import './App.css';
-import TaskForm from './components/task/TaskForm';
-import Task from './components/task/Task';
+import TaskWrapper from './components/task/TaskWrapper';
 
 function App() {
   return (
@@ -8,14 +7,9 @@ function App() {
       <div className='Title'>
         <h1>To Do List</h1>
       </div>
-      <header className="App-header">
-        <Task />
-        <Task />
-        <Task />
-        <div className="Floating-form">
-          <TaskForm />
-        </div>
-      </header>
+      <main className="App-main">
+        <TaskWrapper />
+      </main>
     </div>
   );
 }

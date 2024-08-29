@@ -2,6 +2,12 @@ form {
     display: flex;
 }
 
+.Task-form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 .Text-field {
     padding: 10px;
     font-size: calc(10px + 2vmin);
@@ -16,4 +22,6 @@ form {
     width: 20%;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+    cursor: pointer;
 }
+

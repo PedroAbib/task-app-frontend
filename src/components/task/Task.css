@@ -13,8 +13,9 @@
     width: 25px;
 }
 
-.Task-name {
-
+.Task-name.strikethrough {
+    text-decoration: line-through;
+    color: rgb(136, 136, 136);
 }
 
 .Delete-button {
@@ -23,4 +24,11 @@
     background-color: #202125;
     cursor: pointer;
     margin-left: auto;
+    transition: background-color 0.6s ease;
 }
+
+.Delete-button:hover {
+    background-color: #481111;
+}
+
+

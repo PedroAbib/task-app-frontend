@@ -1,0 +1,14 @@
+.Task-wrapper {
+  height: 100%;
+}
+
+.Floating-form {
+  display: flex;
+  justify-content: center;
+  background-color: #282c34;
+  position: fixed;
+  bottom: 0;
+  padding-bottom: 10vh;
+  padding-top: 5vh;
+  width: 671px;
+}
